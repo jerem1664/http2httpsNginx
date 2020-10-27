@@ -1,4 +1,4 @@
 # http2httpsNginx
-docker pull jerem1664/nginx2https:0.1
+docker run -d -p 80:1080 jerem1664/http2httpsnginx:0.1
 
 Send all incomming traffic from http to https
